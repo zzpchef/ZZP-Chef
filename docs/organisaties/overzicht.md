@@ -1,83 +1,32 @@
-# API Actions
+# Overzicht
 
-Most entities support the following actions:
+Voordat je uren, reiskosten en of onkosten wilt factureren, dien je eerst een organisatie aan te maken. Een organisatie is de overkoepelende 'container' waar projecten aan kunnen worden gekoppeld. Je kan natuurlijk meerdere organisaties aanmaken en per organisatie kan je meerdere projecten aanmaken.
 
-## create
+Je moet minimaal 1 organisatie hebben en een organisatie moet minimaal 1 project hebben.
 
-Insert or update one record. (Note: If an `id` is specified, then an
-existing record will be modified.)
+## Detail overzicht
 
-## delete
+Het detail overzicht van een organisatie laat de onderliggende [projecten](../projecten/overzicht) zien. Vanuit hier is het mogelijk om de gegevens van een organisatie aan te passen.
 
-Delete one record. (Note: Requires an explicit `id`. Note: if you
-want to skip the 'recycle bin' for entities that support undelete (e.g.
-contacts) you should set `$param['skip_undelete'] => 1);`
+![alt text](images/edit.png)
 
-## get
+## Nieuwe organisatie toevoegen
 
-Search for records
+Voor het toevoegen van een organisatie is een aantal gegevens belangrijk. Hieronder een overzicht van de gegevens die je nodig hebt om een organisatie aan te maken:
 
-## getsingle
+* Naam, dit is de naam van het bedrijf
+* Afkorting, hier kan je een afkorting bepalen. Deze afkorting wordt alleen gebruikt bij het factureren. De naam van de factuur kan, indien gewenst deze naam opnemen.
+* Omschrijving, geef hiervoor een korte omschrijving van dorganisatie. Dit is alleen voor eigen informatie en wordt niet gebruikt in communicatie naar buiten.
+* Email, geef hier het email adres op waar je de factuur naar toe kan mailen.
+* Email aanhef, geef hier de aanhef op die je wilt gebruiken bij een factuur naar deze organisatie. De inhoud van de mail kan generiek worden bepaald. De aanhef is uniek per organisatie.
+* Adres, vul hier de straatnaam in van de organisatie
+* Straatnummer, vul hier het straat nummer in van de organisatie
+* Postcode, vul hier de postcode in van de organisatie
+* Plaats, vul hier de plaats in van de organisatie
+* Land, vul hier het land in van de organisatie
 
-Search for records and return the first or only match. (Note: This
-returns the record in a simplified format which is easy to use)
+![alt text](images/toevoegen.png)
 
-## getvalue
-Does a `getsingle` and returns a single value - you need to also set
-`$param['return'] => 'fieldname'`.
+## Organisatie verwijderen
 
-## getcount
-Search for records and return the quantity. (Note: In many cases in
-early versions queries are limited to 25 so this may not always be
-accurate)
-
-## getrefcount
-
-Counts the number of references to a record
-
-## getfields
-
-Fetch entity metadata, i.e. the list of fields supported by the entity
-
-## getlist
-
-Used for autocomplete lookups by the
-[entityRef](/framework/quickform/entityref.md) widget
-
-## getoptions
-
-Returns the options for a specified field e.g.
-```php
-civicrm_api3(
-  'Contact',
-  'getoptions',
-  array('field' => 'gender_id')
-);
-```
-
-returns
-
-```php
-array(
-  1 => 'Female',
-  2 => 'Male',
-  3 => 'Transgender'
-)
-```
-
-## replace
-
-Replace an old set of records with a new or modified set of records.
-(For example, replace the set of "Phone" numbers with a different set of
-"Phone" numbers.).
-
-Warning - REPLACE includes an implicit delete - use with care & test well
-before using in productions
-
-## <del>setvalue</del>
-
-**Deprecated.** Use the create action with the param 'id' instead.
-
-## <del>update</del>
-
-**Deprecated.** Use the create action with the param 'id' instead.
+> Het verwijderen van een organisatie is een ingrijpende handeling. Dit houdt in dat alle onderliggende projecten en de daaraan gekoppelde werkzaamheden zullen worden verwijderd. Het verwijderen van een organisatie is daarom op dit moment nog niet mogelijk. Alleen bij het verwijderen van een account zal alle gerelateerde data worden verwijderd.

@@ -12,6 +12,16 @@ pages:
 - Organisaties:
   - Overzicht: organisaties/overzicht.md
   - Details: organisaties/details.md
+- Projecten:
+  - Overzicht: projecten/overzicht.md
+  - Details: projecten/details.md
+- Tarieven:
+  - Overzicht: tarieven/overzicht.md
+  - Details: tarieven/details.md
+- Facturen:
+  - Overzicht: facturen/overzicht.md
+  - Details: facturen/details.md
+  - Versturen: facturen/versturen.md
 
 markdown_extensions:
   - attr_list
