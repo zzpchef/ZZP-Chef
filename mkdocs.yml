@@ -1,0 +1,35 @@
+site_name: ZZP Chef gebruikers documentatie
+repo_url: https://github.com/zzpchef/civicrm-dev-docs
+site_description: Gebruikers documentatie voor ZZP Chef gebruikers.
+site_author: Folkert Jongbloed
+theme: material
+
+pages:
+- Home: index.md
+- Account:
+  - Factuur: account/factuur.md
+  - Profiel: account/profiel.md
+- Organisaties:
+  - Overzicht: organisaties/overzicht.md
+  - Details: organisaties/details.md
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      guess_lang: true
+      extend_pygments_lang:
+        - name: php
+          lang: php
+          options:
+            startinline: true
+  - pymdownx.superfences:
+      css_class: codehilite
+  - pymdownx.inlinehilite:
+      css_class: codehilite
+  - pymdownx.tilde
+  - pymdownx.betterem
+  - pymdownx.mark
