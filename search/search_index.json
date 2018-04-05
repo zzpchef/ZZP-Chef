@@ -22,163 +22,83 @@
         },
         {
             "location": "/account/profiel/",
-            "text": "Profiel\n\u00b6\n\n\nMost entities support the following actions:\n\n\ncreate\n\u00b6\n\n\nInsert or update one record. (Note: If an \nid\n is specified, then an\nexisting record will be modified.)\n\n\ndelete\n\u00b6\n\n\nDelete one record. (Note: Requires an explicit \nid\n. Note: if you\nwant to skip the 'recycle bin' for entities that support undelete (e.g.\ncontacts) you should set \n$param['skip_undelete'] => 1);\n\n\nget\n\u00b6\n\n\nSearch for records\n\n\ngetsingle\n\u00b6\n\n\nSearch for records and return the first or only match. (Note: This\nreturns the record in a simplified format which is easy to use)\n\n\ngetvalue\n\u00b6\n\n\nDoes a \ngetsingle\n and returns a single value - you need to also set\n\n$param['return'] => 'fieldname'\n.\n\n\ngetcount\n\u00b6\n\n\nSearch for records and return the quantity. (Note: In many cases in\nearly versions queries are limited to 25 so this may not always be\naccurate)\n\n\ngetrefcount\n\u00b6\n\n\nCounts the number of references to a record\n\n\ngetfields\n\u00b6\n\n\nFetch entity metadata, i.e. the list of fields supported by the entity\n\n\ngetlist\n\u00b6\n\n\nUsed for autocomplete lookups by the\n\nentityRef\n widget\n\n\ngetoptions\n\u00b6\n\n\nReturns the options for a specified field e.g.\n\ncivicrm_api3\n(\n\n  \n'Contact'\n,\n\n  \n'getoptions'\n,\n\n  \narray\n(\n'field'\n \n=>\n \n'gender_id'\n)\n\n\n);\n\n\n\n\nreturns\n\n\narray\n(\n\n  \n1\n \n=>\n \n'Female'\n,\n\n  \n2\n \n=>\n \n'Male'\n,\n\n  \n3\n \n=>\n \n'Transgender'\n\n\n)\n\n\n\n\n\nreplace\n\u00b6\n\n\nReplace an old set of records with a new or modified set of records.\n(For example, replace the set of \"Phone\" numbers with a different set of\n\"Phone\" numbers.).\n\n\nWarning - REPLACE includes an implicit delete - use with care & test well\nbefore using in productions\n\n\nsetvalue\n\u00b6\n\n\nDeprecated.\n Use the create action with the param 'id' instead.\n\n\nupdate\n\u00b6\n\n\nDeprecated.\n Use the create action with the param 'id' instead.",
+            "text": "Profiel\n\u00b6",
             "title": "Profiel"
         },
         {
             "location": "/account/profiel/#profiel",
-            "text": "Most entities support the following actions:",
+            "text": "",
             "title": "Profiel"
         },
         {
-            "location": "/account/profiel/#create",
-            "text": "Insert or update one record. (Note: If an  id  is specified, then an\nexisting record will be modified.)",
-            "title": "create"
-        },
-        {
-            "location": "/account/profiel/#delete",
-            "text": "Delete one record. (Note: Requires an explicit  id . Note: if you\nwant to skip the 'recycle bin' for entities that support undelete (e.g.\ncontacts) you should set  $param['skip_undelete'] => 1);",
-            "title": "delete"
-        },
-        {
-            "location": "/account/profiel/#get",
-            "text": "Search for records",
-            "title": "get"
-        },
-        {
-            "location": "/account/profiel/#getsingle",
-            "text": "Search for records and return the first or only match. (Note: This\nreturns the record in a simplified format which is easy to use)",
-            "title": "getsingle"
-        },
-        {
-            "location": "/account/profiel/#getvalue",
-            "text": "Does a  getsingle  and returns a single value - you need to also set $param['return'] => 'fieldname' .",
-            "title": "getvalue"
-        },
-        {
-            "location": "/account/profiel/#getcount",
-            "text": "Search for records and return the quantity. (Note: In many cases in\nearly versions queries are limited to 25 so this may not always be\naccurate)",
-            "title": "getcount"
-        },
-        {
-            "location": "/account/profiel/#getrefcount",
-            "text": "Counts the number of references to a record",
-            "title": "getrefcount"
-        },
-        {
-            "location": "/account/profiel/#getfields",
-            "text": "Fetch entity metadata, i.e. the list of fields supported by the entity",
-            "title": "getfields"
-        },
-        {
-            "location": "/account/profiel/#getlist",
-            "text": "Used for autocomplete lookups by the entityRef  widget",
-            "title": "getlist"
-        },
-        {
-            "location": "/account/profiel/#getoptions",
-            "text": "Returns the options for a specified field e.g. civicrm_api3 ( \n   'Contact' , \n   'getoptions' , \n   array ( 'field'   =>   'gender_id' )  );   returns  array ( \n   1   =>   'Female' , \n   2   =>   'Male' , \n   3   =>   'Transgender'  )",
-            "title": "getoptions"
-        },
-        {
-            "location": "/account/profiel/#replace",
-            "text": "Replace an old set of records with a new or modified set of records.\n(For example, replace the set of \"Phone\" numbers with a different set of\n\"Phone\" numbers.).  Warning - REPLACE includes an implicit delete - use with care & test well\nbefore using in productions",
-            "title": "replace"
-        },
-        {
-            "location": "/account/profiel/#setvalue",
-            "text": "Deprecated.  Use the create action with the param 'id' instead.",
-            "title": "setvalue"
-        },
-        {
-            "location": "/account/profiel/#update",
-            "text": "Deprecated.  Use the create action with the param 'id' instead.",
-            "title": "update"
-        },
-        {
             "location": "/organisaties/overzicht/",
-            "text": "API Actions\n\u00b6\n\n\nMost entities support the following actions:\n\n\ncreate\n\u00b6\n\n\nInsert or update one record. (Note: If an \nid\n is specified, then an\nexisting record will be modified.)\n\n\ndelete\n\u00b6\n\n\nDelete one record. (Note: Requires an explicit \nid\n. Note: if you\nwant to skip the 'recycle bin' for entities that support undelete (e.g.\ncontacts) you should set \n$param['skip_undelete'] => 1);\n\n\nget\n\u00b6\n\n\nSearch for records\n\n\ngetsingle\n\u00b6\n\n\nSearch for records and return the first or only match. (Note: This\nreturns the record in a simplified format which is easy to use)\n\n\ngetvalue\n\u00b6\n\n\nDoes a \ngetsingle\n and returns a single value - you need to also set\n\n$param['return'] => 'fieldname'\n.\n\n\ngetcount\n\u00b6\n\n\nSearch for records and return the quantity. (Note: In many cases in\nearly versions queries are limited to 25 so this may not always be\naccurate)\n\n\ngetrefcount\n\u00b6\n\n\nCounts the number of references to a record\n\n\ngetfields\n\u00b6\n\n\nFetch entity metadata, i.e. the list of fields supported by the entity\n\n\ngetlist\n\u00b6\n\n\nUsed for autocomplete lookups by the\n\nentityRef\n widget\n\n\ngetoptions\n\u00b6\n\n\nReturns the options for a specified field e.g.\n\ncivicrm_api3\n(\n\n  \n'Contact'\n,\n\n  \n'getoptions'\n,\n\n  \narray\n(\n'field'\n \n=>\n \n'gender_id'\n)\n\n\n);\n\n\n\n\nreturns\n\n\narray\n(\n\n  \n1\n \n=>\n \n'Female'\n,\n\n  \n2\n \n=>\n \n'Male'\n,\n\n  \n3\n \n=>\n \n'Transgender'\n\n\n)\n\n\n\n\n\nreplace\n\u00b6\n\n\nReplace an old set of records with a new or modified set of records.\n(For example, replace the set of \"Phone\" numbers with a different set of\n\"Phone\" numbers.).\n\n\nWarning - REPLACE includes an implicit delete - use with care & test well\nbefore using in productions\n\n\nsetvalue\n\u00b6\n\n\nDeprecated.\n Use the create action with the param 'id' instead.\n\n\nupdate\n\u00b6\n\n\nDeprecated.\n Use the create action with the param 'id' instead.",
+            "text": "Overzicht\n\u00b6",
             "title": "Overzicht"
         },
         {
-            "location": "/organisaties/overzicht/#api-actions",
-            "text": "Most entities support the following actions:",
-            "title": "API Actions"
-        },
-        {
-            "location": "/organisaties/overzicht/#create",
-            "text": "Insert or update one record. (Note: If an  id  is specified, then an\nexisting record will be modified.)",
-            "title": "create"
-        },
-        {
-            "location": "/organisaties/overzicht/#delete",
-            "text": "Delete one record. (Note: Requires an explicit  id . Note: if you\nwant to skip the 'recycle bin' for entities that support undelete (e.g.\ncontacts) you should set  $param['skip_undelete'] => 1);",
-            "title": "delete"
-        },
-        {
-            "location": "/organisaties/overzicht/#get",
-            "text": "Search for records",
-            "title": "get"
-        },
-        {
-            "location": "/organisaties/overzicht/#getsingle",
-            "text": "Search for records and return the first or only match. (Note: This\nreturns the record in a simplified format which is easy to use)",
-            "title": "getsingle"
-        },
-        {
-            "location": "/organisaties/overzicht/#getvalue",
-            "text": "Does a  getsingle  and returns a single value - you need to also set $param['return'] => 'fieldname' .",
-            "title": "getvalue"
-        },
-        {
-            "location": "/organisaties/overzicht/#getcount",
-            "text": "Search for records and return the quantity. (Note: In many cases in\nearly versions queries are limited to 25 so this may not always be\naccurate)",
-            "title": "getcount"
-        },
-        {
-            "location": "/organisaties/overzicht/#getrefcount",
-            "text": "Counts the number of references to a record",
-            "title": "getrefcount"
-        },
-        {
-            "location": "/organisaties/overzicht/#getfields",
-            "text": "Fetch entity metadata, i.e. the list of fields supported by the entity",
-            "title": "getfields"
-        },
-        {
-            "location": "/organisaties/overzicht/#getlist",
-            "text": "Used for autocomplete lookups by the entityRef  widget",
-            "title": "getlist"
-        },
-        {
-            "location": "/organisaties/overzicht/#getoptions",
-            "text": "Returns the options for a specified field e.g. civicrm_api3 ( \n   'Contact' , \n   'getoptions' , \n   array ( 'field'   =>   'gender_id' )  );   returns  array ( \n   1   =>   'Female' , \n   2   =>   'Male' , \n   3   =>   'Transgender'  )",
-            "title": "getoptions"
-        },
-        {
-            "location": "/organisaties/overzicht/#replace",
-            "text": "Replace an old set of records with a new or modified set of records.\n(For example, replace the set of \"Phone\" numbers with a different set of\n\"Phone\" numbers.).  Warning - REPLACE includes an implicit delete - use with care & test well\nbefore using in productions",
-            "title": "replace"
-        },
-        {
-            "location": "/organisaties/overzicht/#setvalue",
-            "text": "Deprecated.  Use the create action with the param 'id' instead.",
-            "title": "setvalue"
-        },
-        {
-            "location": "/organisaties/overzicht/#update",
-            "text": "Deprecated.  Use the create action with the param 'id' instead.",
-            "title": "update"
+            "location": "/organisaties/overzicht/#overzicht",
+            "text": "",
+            "title": "Overzicht"
         },
         {
             "location": "/organisaties/details/",
-            "text": "APIv3 Chaining\n\u00b6\n\n\nIt is now possible to do two API calls at once with the first call feeding into\nthe second. E.g. to create a contact with a contribution you can nest the\ncontribution create into the contact create. Once the contact has been created\nit will action the contribution create using the id from the contact create as\n\ncontact_id\n. Likewise you can ask for all activities or all contributions to\nbe returned when you do a get.\n\n\nSee \napi/v3/examples\n within the core source code for a plethora of examples\n(from unit tests) that use chaining. To start, look at these examples:\n\n\n\n\nAPIChainedArray.php\n\n\nAPIChainedArrayFormats.php\n\n\nAPIChainedArrayValuesFromSiblingFunction.php\n\n\n\n\nNote that there are a few supported syntaxes:\n\n\ncivicrm_api\n(\n'Contact'\n,\n \n'create'\n,\n \narray\n(\n\n  \n'version'\n \n=>\n \n3\n,\n\n  \n'contact_type'\n \n=>\n \n'Individual'\n,\n\n  \n'display_name'\n \n=>\n \n'BA Baracus'\n,\n\n  \n'api.website.create'\n \n=>\n \narray\n(\n'url'\n \n=>\n \n'example.com'\n),\n\n\n));\n\n\n\n\n\nis the same as\n\n\ncivicrm_api\n(\n'Contact'\n,\n \n'create'\n,\n \narray\n(\n\n  \n'version'\n \n=>\n \n3\n,\n\n  \n'contact_type'\n \n=>\n \n'Individual'\n,\n\n  \n'display_name'\n \n=>\n \n'BA Baracus'\n,\n\n  \n'api.website'\n \n=>\n \narray\n(\n'url'\n \n=>\n \n'example.com'\n),\n\n\n));\n\n\n\n\n\nIf you have 2 websites to create you can pass them as ids after the \n.\n\nor an array\n\n\ncivicrm_api\n(\n'Contact'\n,\n \n'create'\n,\n \narray\n(\n\n  \n'version'\n \n=>\n \n3\n,\n\n  \n'contact_type'\n \n=>\n \n'Individual'\n,\n\n  \n'display_name'\n \n=>\n \n'BA Baracus'\n,\n\n  \n'api.website.create'\n \n=>\n \narray\n(\n'url'\n \n=>\n \n'example.com'\n),\n\n  \n'api.website.create.2'\n \n=>\n \narray\n(\n'url'\n \n=>\n \n'example.org'\n),\n\n\n));\n\n\n\n\n\nor\n\n\ncivicrm_api\n(\n'Contact'\n,\n \n'create'\n,\n \narray\n(\n\n  \n'version'\n \n=>\n \n3\n,\n\n  \n'contact_type'\n \n=>\n \n'Individual'\n,\n\n  \n'display_name'\n \n=>\n \n'BA Baracus'\n,\n\n  \n'api.website.create'\n \n=>\n \narray\n(\n\n    \narray\n(\n'url'\n \n=>\n \n'example.com'\n),\n\n    \narray\n(\n'url'\n \n=>\n \n'example.org'\n),\n\n  \n),\n\n\n));\n\n\n\n\n\nThe format you use on the way in will dictate the format on the way out.\n\n\nCurrently this supports any entity and it will convert to \nentity_id\n -\ni.e. a PledgePayment inside a contribution will receive the \ncontribution_id\n\nfrom the outer call.",
+            "text": "Detail\n\u00b6",
             "title": "Details"
         },
         {
-            "location": "/organisaties/details/#apiv3-chaining",
-            "text": "It is now possible to do two API calls at once with the first call feeding into\nthe second. E.g. to create a contact with a contribution you can nest the\ncontribution create into the contact create. Once the contact has been created\nit will action the contribution create using the id from the contact create as contact_id . Likewise you can ask for all activities or all contributions to\nbe returned when you do a get.  See  api/v3/examples  within the core source code for a plethora of examples\n(from unit tests) that use chaining. To start, look at these examples:   APIChainedArray.php  APIChainedArrayFormats.php  APIChainedArrayValuesFromSiblingFunction.php   Note that there are a few supported syntaxes:  civicrm_api ( 'Contact' ,   'create' ,   array ( \n   'version'   =>   3 , \n   'contact_type'   =>   'Individual' , \n   'display_name'   =>   'BA Baracus' , \n   'api.website.create'   =>   array ( 'url'   =>   'example.com' ),  ));   is the same as  civicrm_api ( 'Contact' ,   'create' ,   array ( \n   'version'   =>   3 , \n   'contact_type'   =>   'Individual' , \n   'display_name'   =>   'BA Baracus' , \n   'api.website'   =>   array ( 'url'   =>   'example.com' ),  ));   If you have 2 websites to create you can pass them as ids after the  . \nor an array  civicrm_api ( 'Contact' ,   'create' ,   array ( \n   'version'   =>   3 , \n   'contact_type'   =>   'Individual' , \n   'display_name'   =>   'BA Baracus' , \n   'api.website.create'   =>   array ( 'url'   =>   'example.com' ), \n   'api.website.create.2'   =>   array ( 'url'   =>   'example.org' ),  ));   or  civicrm_api ( 'Contact' ,   'create' ,   array ( \n   'version'   =>   3 , \n   'contact_type'   =>   'Individual' , \n   'display_name'   =>   'BA Baracus' , \n   'api.website.create'   =>   array ( \n     array ( 'url'   =>   'example.com' ), \n     array ( 'url'   =>   'example.org' ), \n   ),  ));   The format you use on the way in will dictate the format on the way out.  Currently this supports any entity and it will convert to  entity_id  -\ni.e. a PledgePayment inside a contribution will receive the  contribution_id \nfrom the outer call.",
-            "title": "APIv3 Chaining"
+            "location": "/organisaties/details/#detail",
+            "text": "",
+            "title": "Detail"
+        },
+        {
+            "location": "/tarieven/overzicht/",
+            "text": "Overzicht\n\u00b6",
+            "title": "Overzicht"
+        },
+        {
+            "location": "/tarieven/overzicht/#overzicht",
+            "text": "",
+            "title": "Overzicht"
+        },
+        {
+            "location": "/tarieven/details/",
+            "text": "Details\n\u00b6",
+            "title": "Details"
+        },
+        {
+            "location": "/tarieven/details/#details",
+            "text": "",
+            "title": "Details"
+        },
+        {
+            "location": "/facturen/overzicht/",
+            "text": "Overzicht\n\u00b6",
+            "title": "Overzicht"
+        },
+        {
+            "location": "/facturen/overzicht/#overzicht",
+            "text": "",
+            "title": "Overzicht"
+        },
+        {
+            "location": "/facturen/details/",
+            "text": "Details\n\u00b6",
+            "title": "Details"
+        },
+        {
+            "location": "/facturen/details/#details",
+            "text": "",
+            "title": "Details"
+        },
+        {
+            "location": "/facturen/versturen/",
+            "text": "Versturen\n\u00b6",
+            "title": "Versturen"
+        },
+        {
+            "location": "/facturen/versturen/#versturen",
+            "text": "",
+            "title": "Versturen"
         }
     ]
 }
