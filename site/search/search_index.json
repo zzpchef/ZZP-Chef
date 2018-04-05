@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "ZZP Chef Documentatie\n\u00b6",
+            "text": "ZZP Chef Documentatie",
             "title": "Home"
         },
         {
@@ -12,7 +12,7 @@
         },
         {
             "location": "/account/profiel/",
-            "text": "Profiel\n\u00b6\n\n\nVul onder profiel de benodigde gegevens in. Van deze gegevens wordt op dit moment alleen het email adres gebruikt. Indien er vanuit ZZP Chef een factuur wordt verstuurd, dan wordt een BCC van de email naar dit adres verstuurd zodat je zelf ook een kopie hebt van je factuur.",
+            "text": "Profiel\n\n\nVul onder profiel de benodigde gegevens in. Van deze gegevens wordt op dit moment alleen het email adres gebruikt. Indien er vanuit ZZP Chef een factuur wordt verstuurd, dan wordt een BCC van de email naar dit adres verstuurd zodat je zelf ook een kopie hebt van je factuur.",
             "title": "Profiel"
         },
         {
@@ -22,7 +22,7 @@
         },
         {
             "location": "/account/factuur/",
-            "text": "Factuur\n\u00b6",
+            "text": "Factuur",
             "title": "Factuur"
         },
         {
@@ -32,7 +32,7 @@
         },
         {
             "location": "/organisaties/overzicht/",
-            "text": "Overzicht\n\u00b6\n\n\nVoordat je uren, reiskosten en of onkosten wilt factureren, dien je eerst een organisatie aan te maken. Een organisatie is de overkoepelende 'container' waar projecten aan kunnen worden gekoppeld. Je kan natuurlijk meerdere organisaties aanmaken en per organisatie kan je meerdere projecten aanmaken.\n\n\nJe moet minimaal 1 organisatie hebben en een organisatie moet minimaal 1 project hebben.\n\n\nDetail overzicht\n\u00b6\n\n\nHet detail overzicht van een organisatie laat de onderliggende \nprojecten\n zien. Vanuit hier is het mogelijk om de gegevens van een organisatie aan te passen.\n\n\n\n\nNieuwe organisatie toevoegen\n\u00b6\n\n\nVoor het toevoegen van een organisatie is een aantal gegevens belangrijk. Hieronder een overzicht van de gegevens die je nodig hebt om een organisatie aan te maken:\n\n\n\n\nNaam, dit is de naam van het bedrijf\n\n\nAfkorting, hier kan je een afkorting bepalen. Deze afkorting wordt alleen gebruikt bij het factureren. De naam van de factuur kan, indien gewenst deze naam opnemen.\n\n\nOmschrijving, geef hiervoor een korte omschrijving van dorganisatie. Dit is alleen voor eigen informatie en wordt niet gebruikt in communicatie naar buiten.\n\n\nEmail, geef hier het email adres op waar je de factuur naar toe kan mailen.\n\n\nEmail aanhef, geef hier de aanhef op die je wilt gebruiken bij een factuur naar deze organisatie. De inhoud van de mail kan generiek worden bepaald. De aanhef is uniek per organisatie.\n\n\nAdres, vul hier de straatnaam in van de organisatie\n\n\nStraatnummer, vul hier het straat nummer in van de organisatie\n\n\nPostcode, vul hier de postcode in van de organisatie\n\n\nPlaats, vul hier de plaats in van de organisatie\n\n\nLand, vul hier het land in van de organisatie\n\n\n\n\n\n\nOrganisatie verwijderen\n\u00b6\n\n\n\n\nLet op\n\n\nHet verwijderen van een organisatie is een ingrijpende handeling. Dit houdt in dat alle onderliggende projecten en de daaraan gekoppelde werkzaamheden zullen worden verwijderd. Het verwijderen van een organisatie is daarom op dit moment nog niet mogelijk. Alleen bij het verwijderen van een account zal alle gerelateerde data worden verwijderd.",
+            "text": "Overzicht\n\n\nVoordat je uren, reiskosten en of onkosten wilt factureren, dien je eerst een organisatie aan te maken. Een organisatie is de overkoepelende 'container' waar projecten aan kunnen worden gekoppeld. Je kan natuurlijk meerdere organisaties aanmaken en per organisatie kan je meerdere projecten aanmaken.\n\n\nJe moet minimaal 1 organisatie hebben en een organisatie moet minimaal 1 project hebben.\n\n\nDetail overzicht\n\n\nHet detail overzicht van een organisatie laat de onderliggende \nprojecten\n zien. Vanuit hier is het mogelijk om de gegevens van een organisatie aan te passen.\n\n\n\n\nNieuwe organisatie toevoegen\n\n\nVoor het toevoegen van een organisatie is een aantal gegevens belangrijk. Hieronder een overzicht van de gegevens die je nodig hebt om een organisatie aan te maken:\n\n\n\n\nNaam, dit is de naam van het bedrijf\n\n\nAfkorting, hier kan je een afkorting bepalen. Deze afkorting wordt alleen gebruikt bij het factureren. De naam van de factuur kan, indien gewenst deze naam opnemen.\n\n\nOmschrijving, geef hiervoor een korte omschrijving van dorganisatie. Dit is alleen voor eigen informatie en wordt niet gebruikt in communicatie naar buiten.\n\n\nEmail, geef hier het email adres op waar je de factuur naar toe kan mailen.\n\n\nEmail aanhef, geef hier de aanhef op die je wilt gebruiken bij een factuur naar deze organisatie. De inhoud van de mail kan generiek worden bepaald. De aanhef is uniek per organisatie.\n\n\nAdres, vul hier de straatnaam in van de organisatie\n\n\nStraatnummer, vul hier het straat nummer in van de organisatie\n\n\nPostcode, vul hier de postcode in van de organisatie\n\n\nPlaats, vul hier de plaats in van de organisatie\n\n\nLand, vul hier het land in van de organisatie\n\n\n\n\n\n\nOrganisatie verwijderen\n\n\n\n\nLet op\n\n\nHet verwijderen van een organisatie is een ingrijpende handeling. Dit houdt in dat alle onderliggende projecten en de daaraan gekoppelde werkzaamheden zullen worden verwijderd. Het verwijderen van een organisatie is daarom op dit moment nog niet mogelijk. Alleen bij het verwijderen van een account zal alle gerelateerde data worden verwijderd.",
             "title": "Overzicht"
         },
         {
@@ -57,7 +57,7 @@
         },
         {
             "location": "/organisaties/details/",
-            "text": "Detail\n\u00b6",
+            "text": "Detail",
             "title": "Details"
         },
         {
@@ -67,7 +67,7 @@
         },
         {
             "location": "/projecten/overzicht/",
-            "text": "Overzicht\n\u00b6",
+            "text": "Overzicht",
             "title": "Overzicht"
         },
         {
@@ -77,7 +77,7 @@
         },
         {
             "location": "/projecten/details/",
-            "text": "Details\n\u00b6",
+            "text": "Details",
             "title": "Details"
         },
         {
@@ -87,7 +87,7 @@
         },
         {
             "location": "/tarieven/overzicht/",
-            "text": "Overzicht\n\u00b6",
+            "text": "Overzicht",
             "title": "Overzicht"
         },
         {
@@ -97,7 +97,7 @@
         },
         {
             "location": "/tarieven/details/",
-            "text": "Details\n\u00b6",
+            "text": "Details",
             "title": "Details"
         },
         {
@@ -107,7 +107,7 @@
         },
         {
             "location": "/facturen/overzicht/",
-            "text": "Overzicht\n\u00b6",
+            "text": "Overzicht",
             "title": "Overzicht"
         },
         {
@@ -117,7 +117,7 @@
         },
         {
             "location": "/facturen/details/",
-            "text": "Details\n\u00b6",
+            "text": "Details",
             "title": "Details"
         },
         {
@@ -127,7 +127,7 @@
         },
         {
             "location": "/facturen/versturen/",
-            "text": "Versturen\n\u00b6",
+            "text": "Versturen",
             "title": "Versturen"
         },
         {

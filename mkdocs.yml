@@ -35,7 +35,7 @@ markdown_extensions:
   - admonition
   - def_list
   - toc:
-      permalink: true
+      permalink: false
   - pymdownx.highlight:
       guess_lang: true
       extend_pygments_lang:
