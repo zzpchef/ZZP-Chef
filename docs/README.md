@@ -1,1 +1,9 @@
-# ZZPChef Documentatie
+# Gebruikers documentatie
+
+<ul>
+    {% for p in site.pages %}
+    <li>
+        <a href="{{ p.url }}">{{ p.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
