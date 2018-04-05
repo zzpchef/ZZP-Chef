@@ -29,4 +29,5 @@ Voor het toevoegen van een organisatie is een aantal gegevens belangrijk. Hieron
 
 ## Organisatie verwijderen
 
-> Het verwijderen van een organisatie is een ingrijpende handeling. Dit houdt in dat alle onderliggende projecten en de daaraan gekoppelde werkzaamheden zullen worden verwijderd. Het verwijderen van een organisatie is daarom op dit moment nog niet mogelijk. Alleen bij het verwijderen van een account zal alle gerelateerde data worden verwijderd.
+!!! warning "Let op"
+    Het verwijderen van een organisatie is een ingrijpende handeling. Dit houdt in dat alle onderliggende projecten en de daaraan gekoppelde werkzaamheden zullen worden verwijderd. Het verwijderen van een organisatie is daarom op dit moment nog niet mogelijk. Alleen bij het verwijderen van een account zal alle gerelateerde data worden verwijderd.

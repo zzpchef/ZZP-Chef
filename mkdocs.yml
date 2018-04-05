@@ -2,7 +2,14 @@ site_name: ZZP Chef gebruikers documentatie
 repo_url: https://github.com/zzpchef/ZZP-Chef
 site_description: Gebruikers documentatie voor ZZP Chef gebruikers.
 site_author: Folkert Jongbloed
-theme: material
+theme:  
+  name: 'material'
+  palette:
+    primary: 'blue grey'
+    accent: 'light blue'  
+  logo:
+    icon: 'cloud'  
+  language: 'nl'
 
 pages:
 - Home: index.md
