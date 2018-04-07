@@ -134,6 +134,26 @@
             "location": "/facturen/versturen/#versturen",
             "text": "",
             "title": "Versturen"
+        },
+        {
+            "location": "/onkosten/toevoegen/",
+            "text": "Onkosten toevoegen\n\n\nOnkosten zijn kosten die gemaakt worden voor je eigen bedrijf of voor een opdracht die je aan het uitvoeren bent. In beide gevallen kan je deze kosten hier opgeven. Indien je de kosten maakt in opdracht van een organisatie, dan kan je deze hier opgeven. Dit is echter geen verplicht veld. Indien je de kosten niet koppelt aan een organisatie dan worden de kosten opgesteld als bedrijfskosten. Vul hiervoor de kosten in, inclusief de BTW!\nBij het opgeven van de belasting mag je de BTW aftrekken van je omzetbelasting.\n\n\nJe bent verplicht om de onkosten te kunnen overleggen. Belangrijk is dan natuurlijk om de bonnen te bewaren. Binnen ZZP Chef is het mogelijk om opgegeven onkosten te koppelen aan je Dropbox account. Hierdoor kan je je bonnen digitaal opslaan in je eigen dropbox. Het enige wat je moet doen is zorgen dat je je onkosten koppelt aan het juiste bestand.\n\n\nDropbox\n\n\nVoor deze functionaliteit heb je uiteraard wel een Dropbox account nodig. Dropbox is een cloud storage provider waarvan je gratis gebruik kan maken. Ga hiervoor naar \nhttps://www.dropbox.com\n en maak een nieuwe account aan.\n\n\nZodra je een Dropbox account hebt aangemaakt, kan je je bestanden hiervoor plaatsen in je eigen dropbox. Belangrijk hiervoor is wel om de bestanden op de juiste lokatie te plaatsen.\n\n\nDropbox mappen structuur\n\n\nVanuit ZZP Chef wordt een 'App' folder aangemaakt. Dat betekent dat ZZP Chef alleen maar rechten heeft binnen deze map. ZZP Chef maakt een eigen map aan onder deze App folder genaamd ZZP Chef. In deze map wordt een nieuwe map aangemaakt genaamd 'Expensens'.\nIn deze map Expenses kunnen de digitale bonnen worden opgeslagen. Voor het overzicht is gekozen voor een jaar/maand mappen structuur. Dit houdt in dat de toepassing bestanden toont die van toepassing zijn op het huidige jaar en de huidige maand. Zorg er dus voor dat als je bonnen gaat opslaan in je dropbox dat je altijd een map aanmaakt in het format: jaar/maand. Bijvoorbeeld 2018/04. In de map '04' kan je vervolgens je bon opslaan.\n\n\n\n\nDeze mappen kan je zelf aanmaken op elke gekoppeld apparaat (laptop, desktop, telefoon, tablet)",
+            "title": "Toevoegen"
+        },
+        {
+            "location": "/onkosten/toevoegen/#onkosten-toevoegen",
+            "text": "Onkosten zijn kosten die gemaakt worden voor je eigen bedrijf of voor een opdracht die je aan het uitvoeren bent. In beide gevallen kan je deze kosten hier opgeven. Indien je de kosten maakt in opdracht van een organisatie, dan kan je deze hier opgeven. Dit is echter geen verplicht veld. Indien je de kosten niet koppelt aan een organisatie dan worden de kosten opgesteld als bedrijfskosten. Vul hiervoor de kosten in, inclusief de BTW!\nBij het opgeven van de belasting mag je de BTW aftrekken van je omzetbelasting.  Je bent verplicht om de onkosten te kunnen overleggen. Belangrijk is dan natuurlijk om de bonnen te bewaren. Binnen ZZP Chef is het mogelijk om opgegeven onkosten te koppelen aan je Dropbox account. Hierdoor kan je je bonnen digitaal opslaan in je eigen dropbox. Het enige wat je moet doen is zorgen dat je je onkosten koppelt aan het juiste bestand.",
+            "title": "Onkosten toevoegen"
+        },
+        {
+            "location": "/onkosten/toevoegen/#dropbox",
+            "text": "Voor deze functionaliteit heb je uiteraard wel een Dropbox account nodig. Dropbox is een cloud storage provider waarvan je gratis gebruik kan maken. Ga hiervoor naar  https://www.dropbox.com  en maak een nieuwe account aan.  Zodra je een Dropbox account hebt aangemaakt, kan je je bestanden hiervoor plaatsen in je eigen dropbox. Belangrijk hiervoor is wel om de bestanden op de juiste lokatie te plaatsen.",
+            "title": "Dropbox"
+        },
+        {
+            "location": "/onkosten/toevoegen/#dropbox-mappen-structuur",
+            "text": "Vanuit ZZP Chef wordt een 'App' folder aangemaakt. Dat betekent dat ZZP Chef alleen maar rechten heeft binnen deze map. ZZP Chef maakt een eigen map aan onder deze App folder genaamd ZZP Chef. In deze map wordt een nieuwe map aangemaakt genaamd 'Expensens'.\nIn deze map Expenses kunnen de digitale bonnen worden opgeslagen. Voor het overzicht is gekozen voor een jaar/maand mappen structuur. Dit houdt in dat de toepassing bestanden toont die van toepassing zijn op het huidige jaar en de huidige maand. Zorg er dus voor dat als je bonnen gaat opslaan in je dropbox dat je altijd een map aanmaakt in het format: jaar/maand. Bijvoorbeeld 2018/04. In de map '04' kan je vervolgens je bon opslaan.   Deze mappen kan je zelf aanmaken op elke gekoppeld apparaat (laptop, desktop, telefoon, tablet)",
+            "title": "Dropbox mappen structuur"
         }
     ]
 }
