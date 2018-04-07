@@ -154,6 +154,21 @@
             "location": "/onkosten/toevoegen/#dropbox-mappen-structuur",
             "text": "Vanuit ZZP Chef wordt een 'App' folder aangemaakt. Dat betekent dat ZZP Chef alleen maar rechten heeft binnen deze map. ZZP Chef maakt een eigen map aan onder deze App folder genaamd ZZP Chef. In deze map wordt een nieuwe map aangemaakt genaamd 'Expensens'.\nIn deze map Expenses kunnen de digitale bonnen worden opgeslagen. Voor het overzicht is gekozen voor een jaar/maand mappen structuur. Dit houdt in dat de toepassing bestanden toont die van toepassing zijn op het huidige jaar en de huidige maand. Zorg er dus voor dat als je bonnen gaat opslaan in je dropbox dat je altijd een map aanmaakt in het format: jaar/maand. Bijvoorbeeld 2018/04. In de map '04' kan je vervolgens je bon opslaan.   Deze mappen kan je zelf aanmaken op elke gekoppeld apparaat (laptop, desktop, telefoon, tablet)",
             "title": "Dropbox mappen structuur"
+        },
+        {
+            "location": "/onkosten/koppelen/",
+            "text": "Koppelen aan je Dropbox account\n\n\nOm de bonnen te koppelen aan je onkosten dien je ZZP Chef eerste te koppelen aan je Dropbox Account. Zodra deze koppeling is aangelegd, kunnen de bestanden van Dropbox worden gekoppeld aan je ZZP Chef onkosten.\n\n\nVerbinden met Dropbox\n\n\nOp het moment dat je onkosten wilt aanmaken, bestaat er nog geen koppeling. Je ziet een blauwe knop 'Connect to Dropbox'.\n\n\n\n\nDit houdt in dat er nog geen verbinding is. Klik op deze knop waarna je wordt doorgestuurd naar de authorisatie pagina van Dropbox zelf:\n\n\n\n\nIn dit scherm geef je ZZP Chef toestemming om bestanden op de halen uit de map 'App/ZZP Chef'. Zoals eerder aangegeven heeft ZZP Chef alleen maar toegang tot deze map.\n\n\nZodra je toestemming geeft maakt ZZP Chef voor jou direct een map aan van het huidige jaar met daarin een map van de huidige maand. In Dropbox zie je dus de volgende structuur verschijnen:\n\n\nZZP Chef/Expenses/2018/04 (afhankelijk van de dag waarop je de koppeling aanmaakt, in dit geval april 2014).\n\n\nJe kan vanaf nu bestanden plaatsen in deze map. Dit kan je via de website van Dropbox doen of via de Dropbox app op te telefoon.\nBestanden die in de mappen worden geplaatst worden op de site getoond waarna je de onkosten kan opgeven en kan koppelen aan het juiste digitale bestand.",
+            "title": "Koppelen"
+        },
+        {
+            "location": "/onkosten/koppelen/#koppelen-aan-je-dropbox-account",
+            "text": "Om de bonnen te koppelen aan je onkosten dien je ZZP Chef eerste te koppelen aan je Dropbox Account. Zodra deze koppeling is aangelegd, kunnen de bestanden van Dropbox worden gekoppeld aan je ZZP Chef onkosten.",
+            "title": "Koppelen aan je Dropbox account"
+        },
+        {
+            "location": "/onkosten/koppelen/#verbinden-met-dropbox",
+            "text": "Op het moment dat je onkosten wilt aanmaken, bestaat er nog geen koppeling. Je ziet een blauwe knop 'Connect to Dropbox'.   Dit houdt in dat er nog geen verbinding is. Klik op deze knop waarna je wordt doorgestuurd naar de authorisatie pagina van Dropbox zelf:   In dit scherm geef je ZZP Chef toestemming om bestanden op de halen uit de map 'App/ZZP Chef'. Zoals eerder aangegeven heeft ZZP Chef alleen maar toegang tot deze map.  Zodra je toestemming geeft maakt ZZP Chef voor jou direct een map aan van het huidige jaar met daarin een map van de huidige maand. In Dropbox zie je dus de volgende structuur verschijnen:  ZZP Chef/Expenses/2018/04 (afhankelijk van de dag waarop je de koppeling aanmaakt, in dit geval april 2014).  Je kan vanaf nu bestanden plaatsen in deze map. Dit kan je via de website van Dropbox doen of via de Dropbox app op te telefoon.\nBestanden die in de mappen worden geplaatst worden op de site getoond waarna je de onkosten kan opgeven en kan koppelen aan het juiste digitale bestand.",
+            "title": "Verbinden met Dropbox"
         }
     ]
 }
